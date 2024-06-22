@@ -1,10 +1,10 @@
 package com.ufpr.auth.controllers;
 
-import com.bantads.auth.dtos.DadosAuthDto;
-import com.bantads.auth.exeptions.RoleNaoPermitidaException;
-import com.bantads.auth.exeptions.UsuarioJaExisteException;
-import com.bantads.auth.models.User;
-import com.bantads.auth.services.UserService;
+import com.ufpr.auth.DTO.DadosAuthDto;
+import com.ufpr.auth.exeptions.RoleNaoPermitidaException;
+import com.ufpr.auth.exeptions.UsuarioJaExisteException;
+import com.ufpr.auth.models.User;
+import com.ufpr.auth.services.UserService;
 import jakarta.annotation.security.PermitAll;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
