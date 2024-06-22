@@ -1,14 +1,11 @@
 package com.ufpr.auth.services;
 
-package com.bantads.auth.services;
-
-import com.bantads.auth.dtos.DadosAuthDto;
-import com.bantads.auth.dtos.UserResponseDto;
-import com.bantads.auth.exeptions.RoleNaoPermitidaException;
-import com.bantads.auth.exeptions.UsuarioJaExisteException;
-import com.bantads.auth.models.User;
-import com.bantads.auth.repositories.UserRepository;
-import com.bantads.auth.roles.Roles;
+import com.ufpr.auth.DTO.*;
+import com.ufpr.auth.exeptions.RoleNaoPermitidaException;
+import com.ufpr.auth.exeptions.UsuarioJaExisteException;
+import com.ufpr.auth.models.User;
+import com.ufpr.auth.repositories.UserRepository;
+import com.ufpr.auth.roles.Roles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
